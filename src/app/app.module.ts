@@ -25,6 +25,9 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { CartComponent } from './components/cart/cart.component';
 import { WishlistComponent } from './components/wishlist/wishlist.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { SearchComponent } from './components/search/search.component';
+import { CheckoutComponent } from './components/checkout/checkout.component';
+import { CategoryListComponent } from './components/category-list/category-list.component';
 
 @NgModule({
   declarations: [
@@ -47,7 +50,10 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     ProfileComponent,
     CartComponent,
     WishlistComponent,
-    NavbarComponent
+    NavbarComponent,
+    SearchComponent,
+    CheckoutComponent,
+    CategoryListComponent
   ],
   imports: [
     BrowserModule,
