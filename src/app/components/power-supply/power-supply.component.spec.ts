@@ -1,0 +1,21 @@
+import { ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { PowerSupplyComponent } from './power-supply.component';
+
+describe('PowerSupplyComponent', () => {
+  let component: PowerSupplyComponent;
+  let fixture: ComponentFixture<PowerSupplyComponent>;
+
+  beforeEach(() => {
+    TestBed.configureTestingModule({
+      declarations: [PowerSupplyComponent]
+    });
+    fixture = TestBed.createComponent(PowerSupplyComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+});
